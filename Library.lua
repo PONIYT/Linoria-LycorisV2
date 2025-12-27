@@ -1,5 +1,5 @@
-local Profiler = require("Utility/Profiler")
-local CoreGuiManager = require("Utility/CoreGuiManager")
+local Profiler = loadstring(game:HttpGet("https://raw.githubusercontent.com/PONIYT/Linoria-LycorisV2/refs/heads/main/Profiler.lua"))()
+local CoreGuiManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/PONIYT/Linoria-LycorisV2/refs/heads/main/CoreGuiManager.lua"))()
 
 return LPH_NO_VIRTUALIZE(function()
 	local InputService = game:GetService("UserInputService")
