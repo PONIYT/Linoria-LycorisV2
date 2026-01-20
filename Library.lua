@@ -1,11 +1,4 @@
---[[
-modded by assembledd
-new:
-  3 groupboxes instead of 2
-  toggles turn off on unload
-  watermark is stuck on the bottom ( i like it :) )
-  everything else from the previous one
-]]--
+
 
 local RefService = function(Service)
 	return cloneref(game:GetService(Service))
